@@ -502,3 +502,92 @@ body {
   color: #1f2937;
   font-size: 16px;
 }
+
+/* Plant from */
+.plant-tree-today {
+  padding: 80px 0;
+  background: #166534;
+  color: #fff;
+}
+.plant-tree-today h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.tree-form {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 40px;
+  background: #15803d;
+  border-radius: 8px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+}
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+.custom-select select {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  appearance: none;
+  background: #fff;
+  cursor: pointer;
+}
+.select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #666;
+}
+.donate-btn {
+  width: 100%;
+  background: #e8c329;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.donate-btn:hover {
+  background: #e69500;
+}
+
+/* Footer */
+.footer {
+  background: #14532d;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
