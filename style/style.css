@@ -591,3 +591,118 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+/* ===== Responsive Design ===== */
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: 220px 1fr 250px;
+    gap: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .impact-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+    height: 70px;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .banner h1 {
+    font-size: 32px;
+  }
+  .banner::before,
+  .banner::after {
+    display: none;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .impact-stats {
+    grid-template-columns: 1fr;
+  }
+  .stat-number {
+    font-size: 1.8rem;
+  }
+  .about-campaign h2,
+  .impact-container h2,
+  .plant-tree-today h2 {
+    font-size: 1.7rem;
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  .about-text {
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0 15px;
+  }
+  .banner h1 {
+    font-size: 24px;
+  }
+  .banner p {
+    font-size: 15px;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .modal-content {
+    margin: 20px;
+    width: calc(100% - 40px);
+  }
+  .tree-form {
+    padding: 20px;
+  }
+  #modal-content h2 {
+    font-size: 18px;
+  }
+  .modal-tree-image {
+    height: 200px;
+  }
+  #modal-content p {
+    font-size: 14px;
+  }
+  .modal-close-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+  .about-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .about-text p {
+    font-size: 14px;
+  }
+}
