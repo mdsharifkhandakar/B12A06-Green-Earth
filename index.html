@@ -33,6 +33,51 @@
       </div>
     </section>
 
+    <!-- Choose Section -->
+    <section id="choose-section" class="choose-trees">
+      <h2 class="section-title">Choose Your Trees</h2>
+      <div class="grid-container">
+        <!-- Categories -->
+        <aside class="categories" aria-label="Categories">
+          <h3>Categories</h3>
+          <div id="categories" aria-live="polite"></div>
+        </aside>
+
+        <!-- Cards -->
+        <main class="cards-area" aria-live="polite">
+          <div id="cards" class="cards-grid"></div>
+        </main>
+
+        <!-- Cart -->
+        <aside class="cart" aria-label="Your cart">
+          <h3>Your Cart</h3>
+          <ul id="cart-list"></ul>
+          <div class="cart-total">
+            <span>Total:</span>
+            <span id="cart-total">৳0</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div
+      id="modal"
+      class="modal hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-hidden="true"
+    >
+      <div class="modal-content" role="document">
+        <div id="modal-content"></div>
+      </div>
+    </div>
+
+    <!-- Spinner -->
+    <div id="spinner" aria-hidden="true">
+      <div class="spinner-dot" role="status" aria-label="Loading"></div>
+    </div>
+
     <!-- JS -->
     <script src="script.js"></script>
   </body>
